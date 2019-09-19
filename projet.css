@@ -314,3 +314,110 @@ li {
     margin-right: 5px; 
 }
 }
+
+.fond_img{
+        background-color:rgb(240, 240, 240);
+        width: 100%;
+        padding-top: 30px;
+}
+
+.liste_img{
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+}
+
+.nb_images{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 425px;
+        list-style-type:none;
+        margin-bottom: 3em;
+        border: 10px white solid;
+        position: relative;
+        overflow: hidden;
+}
+
+.text_all{
+        background-color: white;
+        padding: 5px;
+        width: 100%;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        opacity: 0;
+        transition: bottom 0.5s ease-in-out, opacity 1s ease-in-out;
+        display: flex;
+        align-items:flex-end;
+}
+
+.save{
+        margin-left: 115px;
+        margin-right: 15px;
+        padding: 5px;
+        bottom: 10px;
+        border: 1px solid rgb(77, 77, 77);
+        border-radius: 5px;
+        color: rgb(77, 77, 77);
+}
+
+.like{
+        padding: 5px 15px 5px 15px;
+        border: 1px solid rgb(77, 77, 77);
+        border-radius: 5px;
+        color: rgb(77, 77, 77);
+        display: flex;
+}
+
+.color_date{
+        color: rgb(138, 138, 138);
+}
+
+.nb_images:hover .text_all{
+        opacity: 1;
+        bottom: 0;
+}
+
+.all_images{
+        height: 300px;
+        object-fit: cover;
+}
+
+
+                /* <!---------------------- début section  ----------------------> */
+
+
+
+
+@media screen and (max-width: 414px){
+
+
+
+        .shutterstock{
+                display: flex;
+                height: 200px;
+                justify-content: center;
+        }
+
+        .logo_shutter{
+                padding-right: 15px;
+                padding-top: 15px;
+        }
+        
+        .taille_logo{
+                width: 150px;
+                border-radius: 5px;
+        }
+
+        .text_shutter{
+                display: flex;
+                flex-wrap: wrap;
+                width: 45%;
+                height: 0;
+        }
+
+        
+}
