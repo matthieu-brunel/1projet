@@ -1,0 +1,237 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+}
+.logo{
+    font-size: 15px;
+    font-weight: 500;
+    color: #999999;
+}
+.Show{
+    color: #999999;
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+.What{
+    color: #999999;
+    padding-bottom: 15px;
+    line-height: 30px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.picto{
+    color: #999999;
+    border-top: 300px;
+ 
+}
+.reserves{
+    color: #999999;
+    font-size: 15px;
+   
+}
+.About{
+    position: absolute;
+    top: 50px; left: 400px;
+    color: #999999;
+    line-height: 30px;
+
+}
+.Made{
+    margin-bottom: 15px;
+    font-size: 15px;
+    position: absolute;
+    top: 300px; left: 400px;
+    color: #999999;
+    line-height: 30px;
+}
+.title{
+    font-weight: bold;
+    position: absolute;
+    top: -30px;
+}
+.text{
+    list-style-type: none;
+}
+.shop{
+    position: absolute;
+    top: 50px; left: 600px;
+    color: #999999;
+    line-height: 30px;
+}
+.Hiring{
+    position: absolute;
+    top: -30px; left: 300px;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 30px;
+}
+.H{
+    font-weight: bold;
+}
+.post{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    list-style-type: none;
+    line-height: 30px;
+    margin-top: 100px;
+}
+.Directory{
+    font-size: bold;
+
+}
+.Jobs{
+    position: absolute;
+    top: -30px; left: 600px;
+    font-weight: bold;
+    color: #999999;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Snapdocs{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    width: 50px;
+    height: 50px;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -50px;
+}
+.snap{
+    position: absolute;
+    left: 680px; top: 10px;
+    color: #999999;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.Night{
+    position: absolute;
+    bottom: 30px; left: 300px;
+    width: 50px;
+    height: 50px;
+}
+.Night1{
+    position: absolute;
+    left: 680px; bottom: 50px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.HeyDoctor{
+    position: absolute;
+    right: -580px; bottom: -50px;
+}
+.HeyDoctor1{
+    position: absolute;
+    right: -720px; bottom: -50px;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.M{
+    position: absolute;
+    bottom: 500px;
+    border-top: 200px;
+    right: 100px; top: 100px;
+
+}
+.C{
+    position: absolute;
+    right: 100px; top: 50px;
+    color: #999999
+}
+.Hey{
+    width: 50px;
+    height: 50px;
+    top: 100px; left: 100px;
+}
+.shots{
+    position: absolute;
+    right: 100px; bottom: -200px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .About{
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 220px; left: 0px;
+    }
+    .What{
+        font-size: 15px;
+        position: absolute;
+        top: 50px;
+        line-height: 15px;
+    }
+    .picto{
+        position: absolute;
+        top: 150px;
+
+    }
+    .reserves{
+        position: absolute;
+        top: 1200px; left: 0px;
+    }
+    .shop{
+        position: absolute;
+        left: 400px; top: 200px;
+        font-size: 15px;
+    
+    }
+    .Hiring{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 270px; left: -400px;
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+    }
+    .Show{
+        font-size: 15px;
+    }
+    .Made{
+        position: absolute;
+        top: 600px;
+    }
+    .post{
+        position: absolute;
+        top: 300px; left: -400px;
+    }
+    .Snapdocs{
+        position: absolute;
+        top: 600px; left: -400px;
+    }
+    .Jobs{
+        position: absolute;
+        left: -400px; top: 500px;
+    }
+    .Night{
+        position: absolute;
+        left: -200px; top: 320px;
+    }
+    .HeyDoctor{
+        position: absolute;
+        left: -200px; top: 100px;
+    }
+    
+}
+
+
