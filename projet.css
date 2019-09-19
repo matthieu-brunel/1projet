@@ -1,9 +1,319 @@
-*{
-        box-sizing: border-box;
-        padding: 0;
-        margin: 0;
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
-             /* <!---------------------- début section  ----------------------> */
+
+
+.dlogo {
+    width: 80px;
+    height: 20px;
+}
+.mburger {
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    bottom: 760px; left: 0px;
+    display: none;
+}
+
+.search{
+    color:gray;
+    text-decoration: none;
+    
+}
+
+.signup{
+    text-decoration: none;
+    background-color: black;
+    color: gray;
+    border-width:2px;
+    
+}
+
+.haut{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color:black;
+
+}
+
+
+
+ 
+
+
+
+
+.a2 {
+    flex-direction: row;
+    padding: 0 10px;
+    color:gray;
+    text-decoration: none;
+}
+
+.a4 {
+    flex-direction: row;
+    color:gray;
+    text-decoration: none;
+}
+
+.a1 {
+    flex-direction: row;
+    padding: 0 10px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a3 {
+    flex-direction: row;
+    padding: 0 10px;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+li {
+    flex-direction: row;
+}    
+
+.bckimg{
+    width: 100%;
+    height: 500px;
+}
+
+.relative {
+    position: relative;
+    overflow: hidden;
+}
+
+.secpart {
+    position: absolute;
+    top: 50px; left: 200px;
+    
+}
+
+.bigtitle2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+
+.bigtitle{
+    
+    color: white; 
+    font-size: 50px;
+    font-weight: bold;
+    
+    
+    
+}
+
+
+.sectitle{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+.sectitle1{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.signup2 {
+    margin-top: 20px;
+    background-color: purple;
+    
+}
+
+.thtitle {
+    color: white;
+    font-size: 18px;
+    position:absolute;
+    top: 500px; left: 200px;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  .mburger {
+      display: flex;
+  }
+  
+  
+  
+    .a2 {
+      display: none;
+  }
+
+  .a1 {
+      display: none;
+  }
+
+  .search {
+      display: none;
+  }
+
+  .signup {
+      display: none;
+  }
+
+.toppage2  {
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .haut {
+     justify-content: space-between;
+ }
+ 
+.secpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    left: 0px; bottom: -100px;
+    
+}
+
+.bigtitle {
+   font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.thtitle {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 500px; left: 0px;
+    
+}
+
+
+
+.sectitle{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+.bigtitle2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+
+
+}
+
+.sectitle1{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 768px){
+
+.mburger {
+    display: flex;
+}  
+  
+  
+  
+  
+    .a2 {
+    display: none;
+}
+
+.a1 {
+    display: none;
+}
+
+.search {
+    display: none;
+}
+
+.signup {
+    display: none;
+}
+
+.toppage2  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.haut {
+   justify-content: space-between;
+}
+
+.secpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  left: 0px; bottom: -70px;
+  
+}
+.bigtitle2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    
+}
+ .bigtitle {
+     font-size: 28px;
+     text-align: center;
+ }
+
+.thtitle {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 500px; left: 0px;
+  
+}
+
+
+
+.sectitle{
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  
+}
+
+
+
+
+.sectitle1{
+  font-size: 20px;
+  text-align: center;
+  
+}
+.signup2{
+    margin-right: 5px; 
+}
+}
 
 .fond_img{
         background-color:rgb(240, 240, 240);
